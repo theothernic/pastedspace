@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('post/{slug}.html', [\App\Http\Controllers\PostsController::class, 'single'])->name('posts.single');
+

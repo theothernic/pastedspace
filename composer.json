@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "theothernic/pastedspace",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "Personal blog built upon the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
